@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://i.postimg.cc/T3Jsqzf9/Picsart-23-12-25-22-09-38-905.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: untoldcoding 55s infinite ease-in-out;
+}
+
+@keyframes untoldcoding {
+  0% {
+    background-image: url("https://i.postimg.cc/8cCkNRw8/Picsart-23-12-25-22-09-59-514.jpg");
+  }
+  25% {
+    background-image: url("https://i.postimg.cc/zBB4fxmk/Picsart-23-12-25-22-10-43-295.jpg");
+  }
+  50% {
+    background-image: url(" https://i.postimg.cc/4ynGrJNs/Picsart-23-12-25-22-10-21-849.jpg");
+  }
+  80% {
+    background-image: url("https://i.postimg.cc/zBB4fxmk/Picsart-23-12-25-22-10-43-295.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
